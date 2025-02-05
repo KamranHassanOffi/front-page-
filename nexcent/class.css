@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: #F5F7FA;
+}
+.navbar{
+    background-color:white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.info li{
+    list-style: none;
+    font-size: 18px;
+    display: inline-block;
+}
+.info a{
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    font-size: 15px;
+}
+button{
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.text-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 10px; 
+    font-size: 30px;
+}
+.text-content button{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+.text-content p{
+   font-size: 15px;
+  color: gray;
+}
+.text-content span{
+    color: green;
+}
+.hero img{
+    width: 40%;
+    max-width: 500px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.page div{
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 10px 5px;
+}
+.page div.active{
+    background-color: green;
+}
+
+.brand{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  height: 30px;
+  
+  
+}
+.start{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.start h1{
+    color: #4D4D4D;
+    font-weight: bold;
+    
+}
+.start p{
+    color: #717171;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right:10px ;
+    
+}
+.manage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: #4D4D4D; 
+    
+    
+}
+.manage p{
+    color: #717171;
+    margin-top:10px ;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    gap: 25px;
+    margin-top: 100px;
+   
+}
+.cards{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(70, 71, 71);
+    cursor: pointer;
+}
+.card-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+    
+    
+}
+.card-content p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-content img{
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.semi-mid{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color:#F5F7FA;
+    padding: 10px;
+}
+.text1{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+footer {
+    background-color: #1E242B;
+    color: white;
+    padding: 40px 80px;
+    
+}
+
+.end {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 120px;
+}
+
+.text2 {
+    flex: 1;
+    min-width: 200px;
+}
+
+.text2 img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.text2 p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+.except {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.except li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.except li a img {
+    width: 24px;
+    height: 24px;
+   
+}
+
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #bbb;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+
+
+form {
+    display: flex;
+    align-items: center;
+    background: #2C333A;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input[type="email"] {
+    border: none;
+    background: transparent;
+    padding: 8px;
+    flex: 1;
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn2 button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
